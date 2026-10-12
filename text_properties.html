@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+.underline-text    { text-decoration: underline; }
+.overline-text     { text-decoration: overline; }
+.line-through-text { text-decoration: line-through; }
+.no-decoration     { text-decoration: none; }
+    </style>
     <link rel="stylesheet" href="text_properties.css">
 </head>
 <body>
@@ -13,5 +19,13 @@
     <div>
         <h2 class="vertical">vertical align of inline items</h2>
     </div>
+    <p><u>Underlined text</u></p>
+<p class="underline-text">This text has an underline.</p>
+<p class="overline-text">This text has an overline.</p>
+<p class="line-through-text">This text has a line through it.</p>
+<p class="no-decoration">This text has no decoration.</p>
+<div class="container">
+  <span class="middle-text">This text is vertically aligned in the middle.</span>
+</div>
 </body>
 </html>
