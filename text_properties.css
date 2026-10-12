@@ -1,0 +1,19 @@
+.Heading {
+    
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+text-decoration: underline;
+    font-weight: bold;
+    text-decoration-color: black;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    
+}
+p{
+
+    line-height: 500%;
+}
+div{
+    text-align: center;
+}

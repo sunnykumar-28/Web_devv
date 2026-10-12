@@ -69,3 +69,12 @@ html {
 }
 
 /* 2 × 16px (root)   = 32px */
+
+
+
+.container{
+    border: 6px solid #000;
+    width: 600px;
+    margin: 70px auto;
+
+}
