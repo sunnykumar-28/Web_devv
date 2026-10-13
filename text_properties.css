@@ -26,3 +26,9 @@ div{
 .middle-text {
   vertical-align: middle;
 }
+
+h1{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
