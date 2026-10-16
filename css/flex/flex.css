@@ -1,15 +1,20 @@
 .container {
- flex-wrap:wrap;
   display: flex;
-  flex-direction:row;
-  background-color: DodgerBlue;
-  height: 1150px;
-  gap: 200px;
+  background-color: rgb(234, 121, 15);
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 200;
+  width: 1150px;
+  justify-content: center;
+  align-items: center;
+  height: 1100px;
+
 }
 
 .container div {
-  background-color: #f0ce0d;
-  margin: 15px;
-  padding: 20px; 
+  background-color: #9713d4;
+  padding: 20px;
   font-size: 30px;
+  margin: 15px;
+  width: 200px;
 }
