@@ -1,15 +1,15 @@
 .container {
-    flex-wrap:wrap;
+ flex-wrap:wrap;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction:row;
   background-color: DodgerBlue;
+  height: 1150px;
+  gap: 200px;
 }
 
 .container div {
-  background-color: #e9d355;
-  width: 100px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;  
+  background-color: #f0ce0d;
+  margin: 15px;
+  padding: 20px; 
   font-size: 30px;
 }
