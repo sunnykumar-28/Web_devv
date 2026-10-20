@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Event Registration Form</h3>
+    <P>This form shoecases row HTML input types without any CSS styling applied.</P>
+    <form action="/action.php">
+        <fieldset>
+            <legend>Persional Details(Text Input)</legend>
+            <label for="name">Full Name(Required):</label>
+            <input type="text" id="name" placeholder="John Doe"></input>
+            <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="example@domain.com"></input>
+            <br><br>
+            <label for="tel">Phone Number:</label>
+            <input type="tel" id="tel" placeholder="123-456-7890"></input>
+            <br><br>
+            <label for="password">Create a Passcode:</label>
+            <input type="password" id="password"></input>   
+            <br><br>
+        </fieldset>
+        <fieldset>
+            <legend>AttendencePreferences (Selection Inputs)</legend>
+            <label for="ticket">Ticket Type:</label>
+            <select id="ticket" name="Ticket Type">
+                <option value="Student(free)">Student (Free)</option>
+                <option value="General Admission">General Admission</option>
+                <option value="VIP Admission">VIP Admission</option>
+            </select>
+            <br><br>
+            <label>Choose Your Main Learning Track:</label>
+            <br> 
+            <input type="radio" id="radio" name="track"></input>  
+            <label for="radio">Web Development</label><br>
+            <input type="radio" id="subject" name="track"></input>
+            <label for="subject">Data Science</label><br>
+            <input type="radio" id="ux" name="track"></input>
+            <label for="ux">UI/UX Design</label>
+            <br>
+            <label>Dietary Requirements(Select all that apply):</label>
+            <br>
+            <input type="checkbox" id="1"></input>
+            <label for="1">Vegetarian</label><br>
+            <input type="checkbox" id="2"></input>
+            <label for="2">Vegan</label><br>
+            <input type="checkbox" id="3"></input>
+            <label for="3">Gluten-Free</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Scheduling & Logistics(Advanced Inputs)</legend>
+            <label for="number">Additional Guests:</label>
+            <input type="number" id="number" placeholder="0" min="0"></input>
+            <br><br>
+            <label for="date">Arrival Date:></label>
+            <input type="date" id="date"></input>
+            <br><br>
+            <label for="time">Estimated Arrival Time</label>
+            <input type="time" id="time"></input><br><br>
+            <label for="range">Your Current Coding Comfort Level (1-10):</label>
+            <br>
+            <input type="range" id="range"></input><br>
+            <label for="color">Preffered T-shirt Color:</label>
+            <input type="color" id="color"></input><br><br>
+            <label for="url">Portfolio Link:</label>
+            <input type="url"id=url placeholder="https://www.example.com"></input><br><br>
+            <label for="file">Upload Student ID(PDF or Image):</label>
+            <input type="file" id="file"></input><br><br>
+            <label for="textarea">Any Special accommodations or questions?</label>
+            <br> 
+            <textarea type="textarea" id="textarea" placeholder="Type your message here..." rows="4" cols="50"></textarea><br><br>
+        </fieldset><br>
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="Submit Registration"></input>
+        <label for="submit"></label>
+        <input type="submit" id="submit" value="Clear Form"></input><br>
+    </form>
+</body>
+</html>
